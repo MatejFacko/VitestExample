@@ -5,8 +5,7 @@
     "type": "module",
     "scripts": {
         "build": "vite build",
-        "start": "vite",
-        "test": "vitest run"
+        "start": "vite"
     },
     "dependencies": {
         "@package/query": "*",
