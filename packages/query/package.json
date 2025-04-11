@@ -1,0 +1,33 @@
+{
+  "name": "@package/query",
+  "version": "1.0.0",
+  "type": "module",
+  "private": false,
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "vite build",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.12",
+    "@types/react-dom": "18.3.1"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "5.62.7",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "peerDependencies": {
+    "@tanstack/react-query": "5.62.7",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "engines": {
+    "node": ">=22.9.0"
+  }
+}
