@@ -7,7 +7,8 @@
   ],
   "scripts": {
     "build": "lerna run build",
-    "test": "lerna run test"
+    "test": "lerna run test",
+    "app": "cd packages/app && npm run start"
   },
   "devDependencies": {
     "@testing-library/react": "16.2.0",
