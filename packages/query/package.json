@@ -10,8 +10,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "vite build",
-    "test": "vitest run"
+    "build": "vite build"
   },
   "devDependencies": {
     "@types/react": "18.3.12",
